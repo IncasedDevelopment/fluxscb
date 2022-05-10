@@ -1,6 +1,6 @@
-token: "OTA5MzUwMTM4NTQyMTYxOTI2.YZDATw.q6CMXbkZYM88LQLpNk5mZXM_sLM" # Discord Bot Token
-api-user: "tamamo249@gmail.com" # API username/email for PebbleHost
-api-key: "&qH6Q7ah8rWfZB" # API key/password for PebbleHost
+token: "" # Discord Bot Token
+api-user: "" # API username/email for PebbleHost
+api-key: "" # API key/password for PebbleHost
 prefix: "<"
 servers: 
     Proxy: 333666 # Server ID
