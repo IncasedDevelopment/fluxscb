@@ -1,0 +1,50 @@
+token: "OTA5MzUwMTM4NTQyMTYxOTI2.YZDATw.q6CMXbkZYM88LQLpNk5mZXM_sLM" # Discord Bot Token
+api-user: "tamamo249@gmail.com" # API username/email for PebbleHost
+api-key: "&qH6Q7ah8rWfZB" # API key/password for PebbleHost
+prefix: "<"
+servers: 
+    Proxy: 333666 # Server ID
+    Lobby: 333666 # Server ID
+    Practice: 333666 # Server ID
+    Factions: 333666 # Server ID
+permissions:
+    users:
+        "807451449217777705":
+            - start # The commands they can run
+            - stop
+            - command
+            - status
+            - restart
+            - help
+            - empty-survival
+    roles:
+        "898799732409905173": # A role ID
+            - start # The commands they can run
+            - stop
+            - command
+            - status
+            - restart
+            - help
+            - empty-survival
+
+# If you add any channel IDs here, then the bot will only work in this channel
+channel_whitelist: []
+
+# Emojis that appear in responses
+emojis:
+    error: "❌"
+    apiError: "⚠️"
+    online: "🟢"
+    offline: "🔴"
+    success: "✅"
+
+# When one command is typed, instead run different commands
+# Can be used to make a short command that runs a few big commands
+# You need permission to run the alias
+scripts:
+    # For example, this would make !empty-survival run these three commands in order, to 
+    # announce the action on Survival, run a Bungee command to move all players, then stop the server
+    empty-survival:
+        - command Survival broadcast Server being emptied...
+        - command Bungeecord send survival hub
+        - stop Survival

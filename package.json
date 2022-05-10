@@ -1,0 +1,33 @@
+{
+  "name": "fluxscb",
+  "version": "1.1.0",
+  "description": "Flux Server Control Bot",
+  "main": "bot.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@x.com:a/x"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "pebblehost",
+    "control"
+  ],
+  "author": "IncasedDevelopment",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "js-yaml": "^3.14.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "nodeVersion": "12.16.3"
+}
